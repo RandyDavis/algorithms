@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'rspec'
-require 'pry-debugger'
 require_relative '../set1.rb'
 
 describe "Set1" do
@@ -24,7 +23,7 @@ describe "Set1" do
   end
 
   describe ".find_sum_2" do
-    xit "should return false for an empty array" do
+    it "should return false for an empty array" do
       expect(Set1.find_sum_2([])).to eq(false)
     end
 

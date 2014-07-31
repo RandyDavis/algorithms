@@ -31,10 +31,6 @@ module ArrayUtil
   			arr_sum<<(array1[x] + array2[x])
   		end
   	end
-    # Patrick's solution
-    # array1.each_index do |index|
-    #   arr_sum<<array1[index] + array2[index]
-    # end
   	arr_sum
   end
 end
